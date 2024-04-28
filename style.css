@@ -16,3 +16,20 @@
       color-mix(in oklch, blue, black 50%) 55%,
       transparent 70%);
 }
+.container {
+    display: flex;
+    align-items: center; /* Aligns the text vertically center with the planet */
+    justify-content: space-between; /* Puts space between the planet and the text */
+}
+
+.planet {
+    width: 50px; /* Example width */
+    height: 50px; /* Example height */
+    background-color: grey; /* Example color or add background-image for a planet */
+}
+
+.text {
+    font-size: 9rem;
+    color: black; /* Changes text color to black */
+    text-align: right; /* Right-aligns the text */
+}
